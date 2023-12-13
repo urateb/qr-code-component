@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('/src/assets/fonts/Outfit-Regular.woff2') format('woff2'),
+    url('/src/assets/fonts/Outfit-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('/src/assets/fonts/Outfit-Bold.woff2') format('woff2'),
+    url('/src/assets/fonts/Outfit-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-family: 'Outfit';
+  background-color: hsl(212, 45%, 89%);
+}
